@@ -91,7 +91,7 @@
 
 ```
 (set 'my-list '(4 E F))
-(list 'd my-list '(5) (last my-list))
+(print (list 'D my-list '(5) (car (last my-list))))
 
-; Результат: (D (4 E F) (5) (F)) 
+; Результат: (D (4 E F) (5) F)
 ```
